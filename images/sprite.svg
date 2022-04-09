@@ -1,5 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-right" viewBox="0 0 20 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="5.8182" d="M2.909 2.909l11.636 13.091-11.636 13.091"></path>
+</symbol>
+<symbol id="icon-left" viewBox="0 0 22 32">
+<path fill="none" stroke="#646464" style="stroke: var(--color2, #646464)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="6.4" d="M19.2 3.2l-12.8 12.8 12.8 12.8"></path>
+</symbol>
+</defs>
+</svg>
 <symbol id="icon-elipses" viewBox="0 0 44 32">
 <path fill="#ebebeb" style="fill: var(--color1, #ebebeb)" d="M3.024 21.148c0 0.204-0.165 0.369-0.369 0.369s-0.369-0.165-0.369-0.369c0-0.204 0.165-0.369 0.369-0.369s0.369 0.165 0.369 0.369z"></path>
 <path fill="#ebebeb" style="fill: var(--color1, #ebebeb)" d="M5.309 21.148c0 0.204-0.165 0.369-0.369 0.369s-0.369-0.165-0.369-0.369c0-0.204 0.165-0.369 0.369-0.369s0.369 0.165 0.369 0.369z"></path>
