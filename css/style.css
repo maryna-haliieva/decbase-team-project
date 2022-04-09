@@ -53,6 +53,23 @@ img {
     color: #212121;
 }
 
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-image {
+    margin: 0;
+    background-color: tomato;
+}
+
 .services-name {
     font-size: 24px;
     font-weight: 700;
