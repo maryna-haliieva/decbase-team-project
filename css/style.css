@@ -35,6 +35,20 @@ img {
     border: 0;
     clip: rect(0 0 0 0);
   }
+
+.completed-work-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: #F8F8F8;
+}
+.completed-work-h {
+  text-align: center;
+}
+
   .conteiner{
     margin-left: auto;
     margin-right: auto;
