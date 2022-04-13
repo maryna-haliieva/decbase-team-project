@@ -45,6 +45,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.section-user-text {
+  width: 434px;
+  height: 84px;
+}
 .subtitle-text-slogan {
 font-family: 'Open Sans';
 font-style: normal;
@@ -96,6 +100,7 @@ color: #212121;
 }
 .section-our-clients-list {
   display: flex;
+  margin-right: 291px;
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
@@ -107,30 +112,46 @@ align-items: center;
 justify-content: center;
 border: none;
 border-radius: 50%;
+cursor: pointer;
 width: 30px;
 height: 29px;
 padding: 0;
 background: #FFFFFF;
 box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
 margin-right: 18px;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-left:hover,
+.btn-left:focus {
+  background: #37806B;;
+}
+.pic-scrolle-elips {
+  width: 4px;
+  height: 8px;
+  }
 .btn-right {
 display: flex;
 align-items: center;
 justify-content: center;
 border: none;
+cursor: pointer;
 border-radius: 50%;
 width: 30px;
 height: 29px;
 padding: 0;
 background: #37806B;
 box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
-margin-right: 291px;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.pic-scrolle-elips {
-width: 4px;
-height: 8px;
+.btn-right:hover,
+.btn-right:focus {
+  background: #FFFFFF;
 }
+
 .container-clients-userpic {
 position: relative;
 width: 571px;
@@ -144,19 +165,7 @@ padding-bottom: 60px;
 padding-right: 38px;
 margin-right: 140px;
 }
-.container-clients-userpic2 {
-position: relative;
-width: 571px;
-height: 226px;
-background: #FFFFFF;
-box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
-border-radius: 70px 0px;
-padding-left: 99px;
-padding-top: 41px;
-padding-bottom: 60px;
-padding-right: 38px;
-margin-right: 140px;
-}
+
 .userpic {
   position: absolute;
 top: 50%;
