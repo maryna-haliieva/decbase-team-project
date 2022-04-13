@@ -114,22 +114,22 @@ img {
     display: block;
 }
 
-.text-min-title {
-    margin-bottom: 6px;
-    text-transform: uppercase;
+.text-title {
+margin-top: 6px;    
 }
 
-.text-title {
-    margin-bottom: 28px;
+.text-min-title {
+    text-transform: uppercase;
 }
 
 .text-description {
     text-align: left;
-    margin-bottom: 28px;
+    margin-top: 22px;    
 }
 
 .lern-more-btn {
     padding: 0;
+    margin-top: 28px;
     min-width: 142px;
     height: 42px;
     text-align: center;
