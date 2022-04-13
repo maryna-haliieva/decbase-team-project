@@ -41,6 +41,7 @@ img {
     font-weight: 600;
     line-height: 1.4;
     letter-spacing: -0.01em;
+    /* сказати Марині */
 
     color: #646464;
 }
@@ -48,8 +49,8 @@ img {
 .services {
     font-size: 48px;
     font-weight: 500;
-    line-height: 1.6;
-
+    line-height: 1.19;
+    /* Сказати Марині, щоб виправила line-height */
     color: #212121;
 }
 
@@ -63,8 +64,100 @@ img {
 
 .services-description {
     font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: -0.01em;
+    line-height: 1.67;
+    /* сказати Марині  */
+    letter-spacing: 0.01em;
+    /* сказати Марині  */
 
     color: #646464;
 }
+
+/* about us */
+
+.about {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    height: 758px;
+}
+
+.image-group {
+    position: relative;
+}
+
+.image-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border: 2px solid #b0855b;
+    border-radius: 140px 0px;
+    width: 681px;
+    height: 726px;
+}
+
+.about-image-l {
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    margin-right: 132px;
+    margin-top: 32px;
+    margin-left: 36px;
+}
+
+.about-text {
+    width: 542px;
+    max-height: 412px;
+    padding-top: 80px;
+}
+
+.about-right {
+    display: block;
+}
+
+.text-min-title {
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.text-title {
+    margin-bottom: 28px;
+}
+
+.text-description {
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.lern-more-btn {
+    padding: 0;
+    min-width: 142px;
+    height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    background: #37806b;
+}
+
+
+
+
+.image-border-r {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border: 2px solid #b0855b;
+    border-radius: 140px 0px;
+    width: 681px;
+    height: 726px;
+}
+
+.about-image-r {
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    margin-right: 36px;
+    margin-top: 0;
+    margin-left: 154px;
