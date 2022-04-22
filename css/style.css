@@ -105,6 +105,7 @@ img {
 }
 
 .about-text {
+        flex-wrap: wrap;
     width: 542px;
     max-height: 412px;
     padding-top: 80px;
