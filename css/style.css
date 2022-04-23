@@ -1,3 +1,14 @@
+:root {
+
+  --main-text-color: #646464;
+  --h-color: #212121;
+  --accent-color: #CAA892;
+  --backgroung-main-color: #ffffff;
+  --backgroung-secondary-color: #F8F8F8;
+  --font-family-main: 'roboto', 'sans-serif';
+  --font-family-secondary: 'open sans', 'sans-serif';
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -53,7 +64,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  .footer-section {}
+
   
   .footer-wrapper {
     display: flex;
@@ -63,7 +74,7 @@ img {
     margin-right: 101px;
   }
   
-  .logo {}
+
   
   .footer-social {
     margin-left: 70px;
@@ -72,7 +83,7 @@ img {
     display: flex;
     justify-content: space-between;
   }
-  .social-list-item {}
+
   
   .social-list-item:not(:last-child) {
     margin-right: 10px;
@@ -88,18 +99,6 @@ img {
     align-items: center;
   }
   
-  .social-list-link:hover .social-list-icon,
-  .social-list-link:focus .social-list-icon {
-  }
-  
-  .social-list-link:hover,
-  .social-list-link:focus {
-    background-color:;
-  }
-  
-  .social-list-icon {
-    fill:;
-  }
 
 .services-paragraph {
     font-size: 20px;

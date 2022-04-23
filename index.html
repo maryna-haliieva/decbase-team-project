@@ -13,6 +13,9 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600&family=Raleway:wght@700&display=swap"
             rel="stylesheet"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
         <link
             rel="stylesheet"
@@ -178,7 +181,7 @@
         <h2>From Our Blog</h2>
         <ul>
           <li>
-            <img src="./images/2020-interior.jpg" / alt="" width="554">
+            <img src="./images/2020-interior.jpg" alt="" width="554">
             <h3>2020 Interior Design Trends</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -198,8 +201,25 @@
         </ul>
       </section>
             <!-- Subscribe -->
-            <section></section>
-        </main>
+        <section>
+          <form class="contact-form-email">
+            <strong lang="en" class="contact-form-email__h">DON’T FORGET TO SIGN UP</strong>
+            <p>Find out early about all upcoming promotions and new product releases with
+            our newsletter.</p>
+          
+            <span class="contact-form-email__field">
+              <input name="user_email" class="contact-form-email__input" required type="email" placeholder="Enter your email address.....">
+          
+              <button type="submit" class="btn submit-btn subscribe">SUBSCRIBE
+                <svg class="subscribe__icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </span>
+          
+          </form>
+        </section>
+    </main>
 
            <!-- Footer -->
     <footer class="footer-section">
