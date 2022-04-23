@@ -1,3 +1,14 @@
+:root {
+
+  --main-text-color: #646464;
+  --h-color: #212121;
+  --accent-color: #CAA892;
+  --backgroung-main-color: #ffffff;
+  --backgroung-secondary-color: #F8F8F8;
+  --font-family-main: 'roboto', 'sans-serif';
+  --font-family-secondary: 'open sans', 'sans-serif';
+}
+
 a {
     text-decoration: none;
     color: inherit;
